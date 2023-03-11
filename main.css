@@ -14,7 +14,7 @@ header{
 form {
     text-align: center;
     justify-content: center;
-    display: flex;
+    display: none;
 }
 input , button{
     padding: 8px;
@@ -33,5 +33,5 @@ ul li{
     justify-content: center;
 }
 p{
-    cursor: grab;
+    text-decoration: line-through;
 }

@@ -9,5 +9,8 @@ $('form button').click(function(e){
    $(NovoItem).appendTo('ul');
    $('#lista-tarefa').val('');
 })
+$('<p><p>').click(function(){
+   $('form').slideToggle();
+})
 
 })
