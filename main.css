@@ -14,7 +14,7 @@ header{
 form {
     text-align: center;
     justify-content: center;
-    display: none;
+    display: flex;
 }
 input , button{
     padding: 8px;
