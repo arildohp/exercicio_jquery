@@ -10,7 +10,7 @@ $("form button").click(function(e){
 
    $("#lista-tarefa").val("");
    $(NovoItem).on("click", function () {
-      $(NovoItem).addclass("tarefa-feita");
+      $(NovoItem).addClass("tarefa-feita");
    });
 });
 
